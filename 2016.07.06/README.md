@@ -55,17 +55,17 @@
 * Variables and Assignment
   * Java is a strictly typed language!
   * Every variable must be given a type (different from Python), cannot change
-  * Primitive Types:
-  * int (number, no decimal)
-  * 1, 2, 5, -87
-  * float (floating point number, with decimal)
-  * 1.0, 1.8, -84.1
-  * double (don’t use -- Processing wants floats)
-  * See float examples
-  * char (single characters, enclosed in single quotation marks)
-  * 'A', 'b', ';', ''
-  * boolean (either true or false)
-  * true, false
+  * Primitive Types
+    * int (number, no decimal)
+      * 1, 2, 5, -87
+    * float (floating point number, with decimal)
+      * 1.0, 1.8, -84.1
+    * double (don’t use -- Processing wants floats)
+      * See float examples
+    * char (single characters, enclosed in single quotation marks)
+      * 'A', 'b', ';', ''
+    * boolean (either true or false)
+      * true, false
   * <DECLARATION> = <ASSIGNMENT>;
   * <type> <name> = <stuff>;
   * float x = 1.0;
@@ -75,6 +75,7 @@
   * Objects:
   * String (note the capitalization, stores a string of characters, enclosed in double quotation marks)
   * "hi", "hello world", "p", ""
+  * if ( boolean ) { /* stuff */  }
 
 #### PROCESSING
 * Two main functions: 
@@ -89,7 +90,7 @@
 * Variable Scope:
   * If you declare a variable in a function, you cannot access (or view) that function in another function. [local variable]
   * If you declare a variable outside of the function, it can be used throughout the program. [global variable]
-if ( boolean ) { /* stuff */  }
+
 fill( /* color number */ ) choose inside fill color
 stroke( /* color number */ ) choose outline color
 rect( xcor, ycor, width, height )
