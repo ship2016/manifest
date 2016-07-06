@@ -1,6 +1,6 @@
 # Wednesday, July 6th, 2016
 
-#### Things to figure out when you’re starting a new language
+#### THINGS TO EXPLORE WHEN FIRST STARTING A LANGUAGE
 * Comments
 * Math Operations
 * Booleans
@@ -9,11 +9,11 @@
 * Order of operations
 * Defining functions
 * Print
-* Built-in data structures*
+* Built-in data structures *(maybe not immediately)*
 * Looping
 * Conditionals
 
-#### Java Syntax
+#### JAVA
 * Java is case-sensitive (this is different from This)
 * Include semicolon at the end of every regular statement
 
@@ -102,7 +102,7 @@ y = 10.9;
 
 #### PROCESSING
 
-###### Two main functions
+###### Two Main Functions
 
 ```java
 //setup() is run once at the start of the program
@@ -115,7 +115,7 @@ void draw() {
     /* stuff */
 }
 ```
-###### The console
+###### The Console
 * at the bottom of the screen
 * outputs from print statements go here (not to drawing window)
 
@@ -123,7 +123,7 @@ void draw() {
 * If you declare a variable in a function, you cannot access (or view) that function in another function. [local variable]
 * If you declare a variable outside of the function, it can be used throughout the program. [global variable]
 
-###### Drawing shapes
+###### Drawing Shapes
 ```java
 //fill() and stroke() set the colors for all shapes following them
 fill( /* color number */ ) //choose inside fill color
