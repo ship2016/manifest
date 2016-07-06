@@ -17,8 +17,8 @@
 ###### Comments
 * Single line
   ```java
-//comment
-```
+  //comment
+  ```
 * Multiple line
   ```java
   /* comments */
@@ -35,29 +35,29 @@
  * /
  * % *(remainder)*
 
-* Booleans
-  * Values
-    * true
-    * false
-  * Operators
-    * && *(and)*
-    * || *(or)*
-    * ! *(not)*
+###### Booleans
+* Values
+  * true
+  * false
+* Operators
+  * && *(and)*
+  * || *(or)*
+  * ! *(not)*
 
-* Comparators (they result in a boolean!!)
-  * >  *(greater than)*
-  * <= *(greater than or equal to)*
-  * <  *(less than)*
-  * <= *(less than or equal to)*
-  * == *(equals)*
-  * != *(not equals)*
+###### Comparators (they result in a boolean!!)
+ * >  *(greater than)*
+* <= *(greater than or equal to)*
+* <  *(less than)*
+* <= *(less than or equal to)*
+* == *(equals)*
+* != *(not equals)*
 
-* Variables and Assignment
-  * Java is a strictly typed language!
-  * Every variable must be given a type (different from Python), cannot change
-  * Primitive Types
-    * int (number, no decimal)
-      * 1, 2, 5, -87
+###### Variables and Assignment
+* Java is a strictly typed language!
+* Every variable must be given a type (different from Python), cannot change
+* Primitive Types
+  * int (number, no decimal)
+    * 1, 2, 5, -87
     * float (floating point number, with decimal)
       * 1.0, 1.8, -84.1
     * double (don’t use -- Processing wants floats)
