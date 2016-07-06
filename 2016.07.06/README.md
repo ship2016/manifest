@@ -28,12 +28,13 @@
   more comments
   */
   ```
+
 ###### Math Operations
- * +
- * -
- * *
- * /
- * % *(remainder)*
+* +
+* -
+* *
+* /
+* % *(remainder)*
 
 ###### Booleans
 * Values
@@ -45,54 +46,88 @@
   * ! *(not)*
 
 ###### Comparators (they result in a boolean!!)
- * >  *(greater than)*
+* >  *(greater than)*
 * <= *(greater than or equal to)*
 * <  *(less than)*
 * <= *(less than or equal to)*
 * == *(equals)*
 * != *(not equals)*
 
-###### Variables and Assignment
+###### Conditionals
+```java
+if ( boolean ) {
+    /* stuff */
+}
+else if ( boolean ) {
+    /* stuff */
+}
+else {
+    /* stuff */
+}
+```
+
+###### Variables
 * Java is a strictly typed language!
 * Every variable must be given a type (different from Python), cannot change
 * Primitive Types
-  * int (number, no decimal)
+  * int
     * 1, 2, 5, -87
-    * float (floating point number, with decimal)
-      * 1.0, 1.8, -84.1
-    * double (don’t use -- Processing wants floats)
-      * See float examples
-    * char (single characters, enclosed in single quotation marks)
-      * 'A', 'b', ';', ''
-    * boolean (either true or false)
-      * true, false
-  * <DECLARATION> = <ASSIGNMENT>;
-  * <type> <name> = <stuff>;
-  * float x = 1.0;
-  * int number = 10;
-  * float y; y = 10.9;
-  * You can first "declare" the variable prior to "assignment"
-  * Objects:
-  * String (note the capitalization, stores a string of characters, enclosed in double quotation marks)
-  * "hi", "hello world", "p", ""
-  * if ( boolean ) { /* stuff */  }
+  * float
+    * 1.0, 1.8, -84.1
+  * double *(don’t use in Processing, use floats instead)*
+    * See float examples
+  * boolean
+    * true, false
+  * char *(single character, enclosed in single quotation marks)*
+    * 'A', 'b', ';', ''
+  * String *(note the capitalization of S, stores a string of characters, enclosed in double quotation marks)*
+    * "hi", "hello world", "p", ""
+    
+###### Assignment
+* You can first "declare" the variable prior to "assignment", or do both in one line
+```
+<DECLARATION> = <ASSIGNMENT>;
+<type> <name> = <stuff>;
+```
+```java
+float x = 1.0;
+int number = 10;
+float y;
+y = 10.9;
+```
+
+
+
 
 #### PROCESSING
-* Two main functions: 
-  * void setup() { /* stuff */ }
-  * void draw() { /* stuff */ }
-    * loops infinitely
-* Color:
+* Two main functions
+
+```java
+//setup() is run once at the start of the program
+void setup() {
+    /* stuff */
+}
+
+//draw() loops infinitely
+void draw() {
+    /* stuff */
+}
+```
+* Color
   * 0 - 255 (grey-scale)
   * RGB values also work: 3 values 0-255
-* Processing console:
-  * print statements go here, not in the display thingy
-* Variable Scope:
+* Processing console
+  * print statements go here, not in the drawing window 
+* Variable Scope
   * If you declare a variable in a function, you cannot access (or view) that function in another function. [local variable]
   * If you declare a variable outside of the function, it can be used throughout the program. [global variable]
+```java
+fill( /* color number */ ) //choose inside fill color
+stroke( /* color number */ ) //choose outline color
 
-fill( /* color number */ ) choose inside fill color
-stroke( /* color number */ ) choose outline color
-rect( xcor, ycor, width, height )
-ellipse( xcor, ycor, width, height ) centered at xcor ycor
-mouseX, mouseY are built in variables that give position of mouse
+rect( xcor, ycor, width, height ) //xcor and ycor of top left corner
+ellipse( xcor, ycor, width, height ) //centered at xcor ycor
+//there are different modes for meaning of parameters: look up in Reference
+```
+* `mouseX,  mouseY` are built in keywords that give position of mouse
+* `width`, `height` are buiilt in keywords that give dimensions of drawing window
