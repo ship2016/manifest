@@ -132,5 +132,5 @@ rect( xcor, ycor, width, height ) //xcor and ycor of top left corner
 ellipse( xcor, ycor, width, height ) //centered at xcor ycor
 //there are different modes for meaning of parameters: look up in Reference
 ```
-* `mouseX,  mouseY` are built in keywords that give position of mouse
+* `mouseX`,  `mouseY` are built in keywords that give position of mouse
 * `width`, `height` are buiilt in keywords that give dimensions of drawing window
