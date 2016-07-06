@@ -14,6 +14,9 @@
 * Conditionals
 
 #### Java Syntax
+* Java is case-sensitive (this is different from This)
+* Include semicolon at the end of every regular statement
+
 ###### Comments
 * Single line
 ```java
@@ -82,7 +85,7 @@ else {
     * 'A', 'b', ';', ''
   * String *(note the capitalization of S, stores a string of characters, enclosed in double quotation marks)*
     * "hi", "hello world", "p", ""
-    
+
 ###### Assignment
 * You can first "declare" the variable prior to "assignment", or do both in one line
 ```
@@ -97,10 +100,9 @@ y = 10.9;
 ```
 
 
-
-
 #### PROCESSING
-* Two main functions
+
+###### Two main functions
 
 ```java
 //setup() is run once at the start of the program
@@ -113,12 +115,15 @@ void draw() {
     /* stuff */
 }
 ```
-* Processing console
-  * print statements go here, not in the drawing window 
-* Variable Scope
-  * If you declare a variable in a function, you cannot access (or view) that function in another function. [local variable]
-  * If you declare a variable outside of the function, it can be used throughout the program. [global variable]
-* Drawing shapes
+###### The console
+* at the bottom of the screen
+* outputs from print statements go here (not to drawing window)
+
+###### Variable Scope
+* If you declare a variable in a function, you cannot access (or view) that function in another function. [local variable]
+* If you declare a variable outside of the function, it can be used throughout the program. [global variable]
+
+###### Drawing shapes
 ```java
 //fill() and stroke() set the colors for all shapes following them
 fill( /* color number */ ) //choose inside fill color
