@@ -113,18 +113,21 @@ void draw() {
     /* stuff */
 }
 ```
-* Color
-  * 0 - 255 (grey-scale)
-  * RGB values also work: 3 values 0-255
 * Processing console
   * print statements go here, not in the drawing window 
 * Variable Scope
   * If you declare a variable in a function, you cannot access (or view) that function in another function. [local variable]
   * If you declare a variable outside of the function, it can be used throughout the program. [global variable]
+* Drawing shapes
 ```java
+//fill() and stroke() set the colors for all shapes following them
 fill( /* color number */ ) //choose inside fill color
 stroke( /* color number */ ) //choose outline color
-
+```
+* Color
+  * use an int 0 - 255 for the grey scale
+  * use three ints 0 - 255 for RGB value
+```java
 rect( xcor, ycor, width, height ) //xcor and ycor of top left corner
 ellipse( xcor, ycor, width, height ) //centered at xcor ycor
 //there are different modes for meaning of parameters: look up in Reference
