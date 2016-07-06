@@ -38,6 +38,7 @@
 * *
 * /
 * % *(remainder)*
+* Java does not have an exponentiation operator!!
 
 ###### Booleans
 * Values
