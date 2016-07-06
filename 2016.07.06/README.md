@@ -16,9 +16,9 @@
 #### Java Syntax
 ###### Comments
 * Single line
-  ```java
+```java
   //comment
-  ```
+```
 * Multiple line
 ```java
   /* comments */
@@ -27,7 +27,7 @@
   comments
   more comments
   */
- ```
+```
 
 ###### Math Operations
 * +
