@@ -14,12 +14,12 @@
 * Conditionals
 
 #### Java Syntax
-* Comments
-  * Single line
+###### Comments
+* Single line
   ```java
 //comment
 ```
-  * Multiple line
+* Multiple line
   ```java
   /* comments */
   /*
@@ -28,12 +28,12 @@
   more comments
   */
   ```
-* Math Operations
-  * +
-  * -
-  * *
-  * /
-  * % *(remainder)*
+###### Math Operations
+ * +
+ * -
+ * *
+ * /
+ * % *(remainder)*
 
 * Booleans
   * Values
