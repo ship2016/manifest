@@ -8,3 +8,6 @@
 ###### Improving your skillz
 * start simple
 * use a loop to eliminate repeated code
+
+###### For Loops
+* different from Python's for loop that iterates over a data set only
