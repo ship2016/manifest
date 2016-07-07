@@ -11,9 +11,10 @@
 
 ###### For Loops
 * different from Python's for loop that iterates over a data set only
-* define a varialbve just to use as a counter
+* define a variable just to use as a counter
 ```java
 for (int i = 0; i < 4; i++){
     /* stuff to do repeatedly */
 }
 ```
+* the for loop will run whenever the boolean `i < 4` is true
