@@ -28,6 +28,6 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * casting from float to int truncates (cuts off the decimal part)
 ```java
 (int) 7.4; //-> 7
-(int) 10.9 //-> 7
+(int) 10.9; //-> 7
 ```
-* converstion from int to float is automatic (type promotion)
+* converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
