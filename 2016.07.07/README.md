@@ -47,6 +47,6 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * `loadImage( fileName )` loads image into your processing file
 * `image( PImage, xcor, ycor )` displays image on drawing screen
 ```java
-PImage duck = loadImage("cuteDuck.jpg');
+PImage duck = loadImage("cuteDuck.jpg");
 image(duck, 130, 200);
 ```
