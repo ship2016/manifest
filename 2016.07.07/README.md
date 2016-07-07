@@ -1,17 +1,22 @@
 
 ### Thursday, July 7th, 2016
 
-###### Refreshers
-* shapes drawn first will be covered by shapes drawn later
-* make locations dependant on x and y to be able to place avatars anywhere 
+#### Life Advice & Other Mush
 
 ###### Improving your skillz
 * start simple
 * use a loop to eliminate repeated code
 * explore the language on your own
+* when you debug and succeed, ask yourself WHY it works
 
 ###### K's Heartfelt Speech
 Don't be afraid to be wrong. There's no need to try to save face or anything. We're here to learn and grow as people and CS students. Ask questions. Be curious. Explore. Learn. 
+
+#### Processing
+
+###### Refreshers
+* shapes drawn first will be covered by shapes drawn later
+* make locations dependant on x and y to be able to place avatars anywhere 
 
 ###### For Loops
 * different from Python's for loop that iterates over a data set only
@@ -38,5 +43,31 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 ```
 * converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
 
-###### Sprites
+###### Loading Images
+* `PImage` is a type that holds images
+* To use images:
+  1. Add the file: Sketch -> Add File; file is added to data folder
+  2. Refer to image by the file name
+* `loadImage( fileName )` loads image into your processing file
+* `image( PImage, xcor, ycor )` displays image on drawing screen
+```java
+PImage duck = loadImage("cuteDuck.jpg");
+image(duck, 130, 200);
+```
+* use dot operator to get the attributes of the PImage: `duck.width` and `duck.height`
+
+###### Sprite Animation
 * sprite: a tiny image of a character
+* animation from the olden days and for small entities (like Mario) happen by alternating between sprites
+* built-in variable `frameCount` increments each time draw() is run
+```java
+//alternate between sprites duck1 and duck2
+if (frameCount % 2 == 0) {
+  image(duck1, 120, 200);
+}
+else {
+  image(duck2, 120, 200);
+}
+```
+
+Exercise: making an animation "bounce" off the edge of the screen like the icon on a DVD
