@@ -13,8 +13,8 @@
 * different from Python's for loop that iterates over a data set only
 * define a variable just to use as a counter
 ```java
-for (int i = 0; i < 4; i++){
+for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
     /* stuff to do repeatedly */
 }
 ```
-* the for loop will run whenever the boolean `i < 4` is true
+  * the for loop will run whenever the boolean `i < 4` is true
