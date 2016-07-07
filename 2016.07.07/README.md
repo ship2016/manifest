@@ -40,7 +40,6 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
 
 ###### Files & Images
-* sprite: a tiny image of a character
 * `PImage` is a type that holds images
 * To use images:
   1. Add the file: Sketch -> Add File; file is added to data folder
@@ -52,3 +51,15 @@ PImage duck = loadImage("cuteDuck.jpg");
 image(duck, 130, 200);
 ```
 * use dot operator to get the attributes of the PImage: `duck.width` and `duck.height`
+* sprite: a tiny image of a character
+* animation from the olden days and for small entities (like Mario) happen by alternating between sprites
+* built-in variable `frameCount` increments each time draw() is run
+```java
+//alternate between sprites duck1 and duck2
+if (frameCount % 2 == 0) {
+  image(duck1, 120, 200);
+}
+else {
+  image(duck2, 120, 200);
+}
+```
