@@ -8,6 +8,10 @@
 ###### Improving your skillz
 * start simple
 * use a loop to eliminate repeated code
+* explore the language on your own
+
+###### K's Heartfelt Harang
+Don't be afraid to be wrong. There's no need to try to save face or anything. We're here to learn and grow as people and CS students. Ask questions. Be curious. Explore. Learn. 
 
 ###### For Loops
 * different from Python's for loop that iterates over a data set only
@@ -32,3 +36,5 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 (int) 10.9; //-> 10
 ```
 * converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
+
+###### Sprites
