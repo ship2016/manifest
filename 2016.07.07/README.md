@@ -26,7 +26,7 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 
 ###### Random
 * `random( lowerBound, upperBound )` returns a float between *lowerBound* (inclusive) and *upperBound* (exclusive)
-* `random( upperBound)` has the same functionality with 0 as the *lowerBound*
+* `random( upperBound )` has the same functionality with 0 as the *lowerBound*
 * useful for random colors
 
 ###### Typecasting
