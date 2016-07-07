@@ -44,3 +44,9 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * To use images:
   1. Add the file: Sketch -> Add File; file is added to data folder
   2. Refer to image by the file name
+* `loadImage( fileName )` loads image into your processing file
+* `image( image, xcor, ycor)` displays image on drawing screen
+```java
+PImage duck = loadImage("cuteDuck.jpg');
+image(duck, 130, 200);
+```
