@@ -21,7 +21,7 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * you can use for loops inside for loops (ex: inside for loop makes a row, outside for loop makes rows of rows)
 
 ###### Random
-* `random( upperBound )`: returns a float between 0 (inclusive) and *upperBound* (exclusive)
+* `random( upperBound )` returns a float between 0 (inclusive) and *upperBound* (exclusive)
 * useful for random colors
 
 ###### Typecasting
@@ -29,6 +29,6 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * casting from float to int truncates (cuts off the decimal part)
 ```java
 (int) 7.4; //-> 7
-(int) 10.9; //-> 7
+(int) 10.9; //-> 10
 ```
 * converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
