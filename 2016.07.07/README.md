@@ -50,3 +50,8 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 PImage duck = loadImage("cuteDuck.jpg");
 image(duck, 130, 200);
 ```
+* use dot operator to get the attributes of the PImage
+```java
+int w = duck.width;
+int h = duck.height;
+```
