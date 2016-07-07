@@ -38,5 +38,9 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 ```
 * converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
 
-###### Sprites
+###### Files & Images
 * sprite: a tiny image of a character
+* `PImage` is a type that holds images
+* To use images:
+  1. Add the file: Sketch -> Add File; file is added to data folder
+  2. Refer to image by the file name
