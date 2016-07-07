@@ -25,7 +25,8 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * you can use for loops inside for loops (ex: inside for loop makes a row, outside for loop makes rows of rows)
 
 ###### Random
-* `random( upperBound )` returns a float between 0 (inclusive) and *upperBound* (exclusive)
+* `random( lowerBound, upperBound )` returns a float between *lowerBound* (inclusive) and *upperBound* (exclusive)
+* `random( upperBound)` has the same functionality with 0 as the *lowerBound*
 * useful for random colors
 
 ###### Typecasting
