@@ -1,9 +1,7 @@
 
 ### Thursday, July 7th, 2016
 
-###### Refreshers
-* shapes drawn first will be covered by shapes drawn later
-* make locations dependant on x and y to be able to place avatars anywhere 
+#### Life Advice & Other Mush
 
 ###### Improving your skillz
 * start simple
@@ -13,6 +11,12 @@
 
 ###### K's Heartfelt Speech
 Don't be afraid to be wrong. There's no need to try to save face or anything. We're here to learn and grow as people and CS students. Ask questions. Be curious. Explore. Learn. 
+
+#### Processing
+
+###### Refreshers
+* shapes drawn first will be covered by shapes drawn later
+* make locations dependant on x and y to be able to place avatars anywhere 
 
 ###### For Loops
 * different from Python's for loop that iterates over a data set only
