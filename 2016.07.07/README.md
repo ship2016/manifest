@@ -69,3 +69,5 @@ else {
   image(duck2, 120, 200);
 }
 ```
+
+Exercise: making an animation "bounce" off the edge of the screen like the DVD players
