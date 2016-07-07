@@ -38,3 +38,4 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 * converstion from less precise type to more precise type (ex. int to float) is automatic (type promotion)
 
 ###### Sprites
+* sprite: a tiny image of a character
