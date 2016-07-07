@@ -18,6 +18,7 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
     /* stuff to do repeatedly */
 }
 ```
+* you can use for loops inside for loops (ex: inside for loop makes a row, outside for loop makes rows of rows)
 
 ###### Random
 * `random( upperBound )`: returns a float between 0 (inclusive) and *upperBound* (exclusive)
