@@ -22,3 +22,12 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
 ###### Random
 * `random( upperBound )`: returns a float between 0 (inclusive) and *upperBound* (exclusive)
 * useful for random colors
+
+###### Typecasting
+* cast one type to another 
+* casting from float to int truncates (cuts off the decimal part)
+```java
+(int) 7.4; //-> 7
+(int) 10.9 //-> 7
+```
+* converstion from int to float is automatic (type promotion)
