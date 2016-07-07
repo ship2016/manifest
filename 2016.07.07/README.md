@@ -9,6 +9,7 @@
 * start simple
 * use a loop to eliminate repeated code
 * explore the language on your own
+* when you debug and succeed, ask yourself WHY it works
 
 ###### K's Heartfelt Speech
 Don't be afraid to be wrong. There's no need to try to save face or anything. We're here to learn and grow as people and CS students. Ask questions. Be curious. Explore. Learn. 
