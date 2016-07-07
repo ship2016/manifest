@@ -102,6 +102,7 @@ y = 10.9;
 
 
 #### PROCESSING
+* highlight function, Help -> Find in Reference for quick documentation lookup
 
 ###### Two Main Functions
 
