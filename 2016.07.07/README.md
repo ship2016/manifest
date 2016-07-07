@@ -18,3 +18,7 @@ for (int i = 0; i < 4; i++){  // for (counter declaration; test; inccrement)
     /* stuff to do repeatedly */
 }
 ```
+
+###### Random
+* `random( upperBound )`: returns a float between 0 (inclusive) and *upperBound* (exclusive)
+* useful for random colors
