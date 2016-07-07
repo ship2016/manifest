@@ -70,4 +70,4 @@ else {
 }
 ```
 
-Exercise: making an animation "bounce" off the edge of the screen like the DVD players
+Exercise: making an animation "bounce" off the edge of the screen like the icon on a DVD
