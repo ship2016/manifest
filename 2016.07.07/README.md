@@ -5,7 +5,6 @@
 
 ###### Improving your skillz
 * start simple
-* use a loop to eliminate repeated code
 * explore the language on your own
 * when you debug and succeed, ask yourself WHY it works
 
@@ -19,6 +18,7 @@ Don't be afraid to be wrong. There's no need to try to save face or anything. We
 * make locations dependant on x and y to be able to place avatars anywhere 
 
 ###### For Loops
+* use a loop to eliminate repeated code
 * different from Python's for loop that iterates over a data set only
 * define a variable just to use as a counter
 ```java
