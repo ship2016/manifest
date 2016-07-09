@@ -12,7 +12,7 @@
 * Data type for colors
 
   ```processing
-  Color c;
+  color c;
   c = color( /* number(s) */ );
   ```
   
