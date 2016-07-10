@@ -34,9 +34,13 @@ pic.set(0, 0, newC);
 ```
 
 ###### Pair Programming
-* One , One Navigator
-* Helmsman types, Navigator directs and ask questions
+* One Driver, One Navigator
+* Driver types, Navigator directs and ask questions
 * Communication is key
+Credit goes to Mr. Brown (replaced second link because the original second link was bad)
+[Here's a video demonstrating less than optimal interaction](http://www.youtube.com/watch?v=SU1v3OFL7uI)
+[Here's a video of a pair doing well](https://www.youtube.com/watch?v=A0MANBDX4Ag)
+
 
 ###### Exercises
 * Part 1: Change the colors of a rectangle of pixels
