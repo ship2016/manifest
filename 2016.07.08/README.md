@@ -37,6 +37,7 @@ pic.set(0, 0, newC);
 * One Driver, One Navigator
 * Driver types, Navigator directs and ask questions
 * Communication is key
+
 Credit goes to Mr. Brown (replaced second link because the original second link was bad)
 <br>
 [Click here for a video demonstrating less than optimal interaction](http://www.youtube.com/watch?v=SU1v3OFL7uI)
