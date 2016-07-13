@@ -1,6 +1,6 @@
-7/12/16
+### Tuesday, July 12th, 2016
 
-Day 0000101 (5)
+Day 0000101b
 
 ```processing
 import processing.video.*;
@@ -25,10 +25,10 @@ image(p, 0, 0);
 }
 ```
 
-Assignment:
-
-0 original
-1 grayscale
-2 negative
-3 invert
+Assignment:<br>
+<br>
+0 original<br>
+1 grayscale<br>
+2 negative<br>
+3 invert<br>
 4 blur
