@@ -2,11 +2,11 @@
 
 #### Object Oriented Programming (OOP)
 * Computer programmers are smart lazy (OOPs) and do not write the same code multiple times
+* Enables one to work more efficiently with modeling
 
 ###### Objects
-* an object is a package of information
-* Objects allow you to … 
-* examples: PImage, String
+* An object is a particular instance of a class containing a bundle of variables and related methods
+* Examples: PImage, String
 
 ###### Classes 
 * A class is an object blueprint (the design of the object) 
@@ -18,6 +18,16 @@
   * instance variables: what the object knows (properties)
   * methods: what the object does (actions)
 
+###### Benefits of OOP
+* Objects in OOP can reused in other programs
+* Once an object is created, knowledge of the implementation of the object is not needed for its usage
+* Objects can hide certain variables and methods, thereby preventing the user from tampering with it
+* Objects are one type of breaking down large programming projects and allows multiple programmers to work on different parts at the same time
+
+###### Cons of OOP
+* In general, Object Oriented programs are larger (Typical Java programs are larger than their Python counterparts)
+* Requires a great deal of planning (ie What should each object be tasked with?)
+
 ###### Instance variables
 * convention: declare them at the top of the class
 * initialize them inside the constructor
@@ -28,23 +38,23 @@
 
 ###### Constructors
 * A constructor of a class is used to create new objects
-* initializes the instance variables
-* the name of the constructor must be the name of the class
-* call a constructor using the 'new' keyword
+* Initializes the instance variables
+* The name of the constructor must be the name of the class
+* Call a constructor using the 'new' keyword
 ```java
 Mover m = new Mover();
 ```
 * Every time you call the constructor a new object is created!!! (THEY ARE DISTINCT)
-* 'NullPointerException' occurs when you are trying to use an object that you did not yet create using a constructor
+* 'NullPointerException' occurs when you are trying to use an object that you did not yet create using its constructor
 * Default constructor does not have any parameters
 * Overloaded constructors have at least one parameter
-* Java will know which constructor to use based on what argumetns are passed in the call
+* Java will know which constructor to use based on what arguments are passed in the call
 
 
 * Driver file: Operates or controls a specific device attached to the computer 
 
 ### Arrays
-* similar properties to lists in Python
+* Similar properties to lists in Python
 * Arrays have a fixed size (this is different that in Python)
 ```java
 
@@ -56,5 +66,4 @@ int[] nums = new int[5]; //declares and initializes an array that can hold up to
 Movers[] spaceballs; //declare an array of Movers
 spaceballs = new Mover[10]; //initialize an array that can hold up to 10 Movers (doesn’t construct any Movers)
 
-```
 ```
