@@ -7,6 +7,7 @@
 * an object is a package of information
 * Objects allow you to … 
 * examples: PImage, String
+
 ###### Classes 
 * A class is an object blueprint (the design of the object) 
 * A class is not an object, it describes an object.
@@ -54,4 +55,6 @@ int[] numbers; //declare an array of ints
 int[] nums = new int[5]; //declares and initializes an array that can hold up to 5 ints
 Movers[] spaceballs; //declare an array of Movers
 spaceballs = new Mover[10]; //initialize an array that can hold up to 10 Movers (doesn’t construct any Movers)
+
+```
 ```
