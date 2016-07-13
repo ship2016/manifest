@@ -2,6 +2,7 @@
 
 Day 0000101 (5)
 
+```processing
 import processing.video.*;
 Capture cam;
 PImage original, p;
@@ -22,6 +23,7 @@ for (int x = 0; x < p.width; x++) {
 
 image(p, 0, 0);
 }
+```
 
 Assignment:
 
