@@ -7,6 +7,7 @@
 * an object is a package of information
 * Objects allow you to … 
 * examples: PImage, String
+
 ###### Classes 
 * A class is an object blueprint (the design of the object) 
 * A class is not an object, it describes an object.
