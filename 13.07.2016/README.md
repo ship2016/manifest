@@ -53,7 +53,7 @@ Mover m = new Mover();
 
 * Driver file: Operates or controls a specific device attached to the computer 
 
-### New Data Types!
+#### New Data Types!
 
 ###### Arrays
 * Similar properties to lists in Python
@@ -77,7 +77,7 @@ spaceballs = new Mover[10]; //initialize an array that can hold up to 10 Movers 
 * Constructors: `PVector()`, `PVector(x, y)`, and `PVector(x, y, z)`
 
 
-### Konstantinspiration
+#### Konstantinspiration
 
 ###### K's Heartfelt Speech #2
 Don’t be afraid of physics!
