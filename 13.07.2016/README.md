@@ -90,6 +90,7 @@ If you actually think making games will be fun, then think again because you’r
 *quote may not be accurate.
 
 Think about professionals making games. They make crappy games sometimes -- a lot of the time. So don’t think you’re going to make something really awesome right off the bat. Before you get too creative making your own game, try cloning someone else’s game first.
-No, don’t be like really lame Chinese companies that make a really pale copy of a triple A title. Try to make a game that is simple at first and make it the same exact way the developers made it. Then you can use the tools you need to make your own.
+
+No, don’t be like really lame Chinese companies that make a really pale copy of a triple A title. Try to make a game that is simple at first and make it the same exact way the developers made it. Then you can learn the tools you need to make your own.
 
 If you actually want to try to make a game, start by making a simple game like Snake or Pac Man. So on that note you have your PVectors, something we make use in the future, anytime you want to use a program to move around, your Mover class is a great example.
