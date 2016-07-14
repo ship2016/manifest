@@ -45,7 +45,7 @@
 Mover m = new Mover();
 ```
 * Every time you call the constructor a new object is created!!! (THEY ARE DISTINCT)
-* 'NullPointerException' occurs when you are trying to use an object that you did not yet create using its constructor
+* `NullPointerException` occurs when you are trying to use an object that you did not yet create using its constructor
 * Default constructor does not have any parameters
 * Overloaded constructors have at least one parameter
 * Java will know which constructor to use based on what arguments are passed in the call
@@ -53,7 +53,9 @@ Mover m = new Mover();
 
 * Driver file: Operates or controls a specific device attached to the computer 
 
-### Arrays
+### New Data Types!
+
+###### Arrays
 * Similar properties to lists in Python
 * Arrays have a fixed size (this is different that in Python)
 ```java
@@ -67,3 +69,27 @@ Movers[] spaceballs; //declare an array of Movers
 spaceballs = new Mover[10]; //initialize an array that can hold up to 10 Movers (doesn’t construct any Movers)
 
 ```
+###### Vectors
+* Object type: PVector (Example: `PVector position, velocity;`)
+* look up in Reference!!
+* A vector has x y z values
+* `add()`, `mult()`, `sub()`, `div()` in order to change values of vectors with constants
+* Constructors: `PVector()`, `PVector(x, y)`, and `PVector(x, y, z)`
+
+
+### Konstantinspiration
+
+###### K's Heartfelt Speech #2
+Don’t be afraid of physics!
+
+###### K's Game Speech
+Some people like playing games, and they think that means they like to make games. I was pwning noobs before you were born, and now I see what pwning noobs entails, and it involves Pokemon Go, and I’m scared.
+
+If you actually think making games will be fun, then think again because you’re completely wrong.* Be aware you will not be making fun games for a long time.
+
+*quote may not be accurate.
+
+Think about professionals making games. They make crappy games sometimes -- a lot of the time. So don’t think you’re going to make something really awesome right off the bat. Before you get too creative making your own game, try cloning someone else’s game first.
+No, don’t be like really lame Chinese companies that make a really pale copy of a triple A title. Try to make a game that is simple at first and make it the same exact way the developers made it. Then you can use the tools you need to make your own.
+
+If you actually want to try to make a game, start by making a simple game like Snake or Pac Man. So on that note you have your PVectors, something we make use in the future, anytime you want to use a program to move around, your Mover class is a great example.
