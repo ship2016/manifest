@@ -29,11 +29,11 @@
 * Requires a great deal of planning (ie What should each object be tasked with?)
 
 ###### Instance variables
-* convention: declare them at the top of the class
-* initialize them inside the constructor
+* Convention: declare them at the top of the class
+* Initialize them inside the constructor
 
 ###### Methods
-* call a method using the dot operator: `m.move();`
+* Call a method using the dot operator: `m.move();`
 * Method overloading: multiple methods have the same name but have different parameters (often times you will overload constructors)
 
 ###### Constructors
@@ -50,8 +50,7 @@ Mover m = new Mover();
 * Overloaded constructors have at least one parameter
 * Java will know which constructor to use based on what arguments are passed in the call
 
-
-* Driver file: Operates or controls a specific device attached to the computer 
+* Driver file: Contains the setup and draw methods
 
 #### New Data Types!
 
